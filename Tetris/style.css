@@ -1,0 +1,51 @@
+h3{
+    
+}
+.container{
+    display: flex;
+
+}
+
+.grid {  
+    margin-top: 15px;   
+    border-color: black;
+    border-width: 1px;  
+    border-style: solid; 
+
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;   
+}
+.grid div{   
+    
+     
+    width: 20px;
+    height: 20px;   
+}
+ .tetromino {   
+    box-shadow:1px 1px 1px 1px black inset;
+         
+     background-color: blue ;
+ }
+
+ .mini-grid {  
+    border-color: black;
+    border-width: 1px;  
+    border-style: solid;
+
+    margin-left: 15px;  
+    margin-top: 150px;  
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;   
+}
+
+.mini-grid div{     
+     
+    width: 20px;
+    height: 20px;   
+}
